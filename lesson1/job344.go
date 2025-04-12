@@ -34,7 +34,9 @@ func job344Method(strArray []string) {
 *
 写法2
 */
-func job344Method2(strArray []string) {
+func job344Method2() {
+
+	strArray := []string{"a", "b", "c", "d", "e", "f"}
 
 	if len(strArray) == 0 {
 		fmt.Println("数组为空")

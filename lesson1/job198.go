@@ -31,6 +31,7 @@ func Job198Method(nums []int) int {
 		current = temp
 
 	}
+
 	return current
 }
 

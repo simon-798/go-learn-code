@@ -9,7 +9,9 @@ import "fmt"
 */
 
 // 没有完全理解回溯算法
-func job46Method(nums []int) [][]int {
+func job46Method() [][]int {
+	nums := []int{1, 2}
+
 	var result [][]int                    //存储所有排列的结果  二维切片
 	var track []int                       //用于记录当前已经选择的数字  一维切片
 	used := make([]bool, len(nums))       //用于标记是否已经被使用过 长度与nums相同
