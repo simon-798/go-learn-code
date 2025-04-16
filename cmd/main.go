@@ -10,9 +10,9 @@ import (
 
 func main() {
 
-	numArray1 := []int{1, 2, 3, 4, 5, 6, 108, 6, 5, 4, 3, 2, 1}
+	/*numArray1 := []int{1, 2, 3, 4, 5, 6, 108, 6, 5, 4, 3, 2, 1}
 	result := lesson1.Job136Method(numArray1)
-	fmt.Println(result)
+	fmt.Println(result)*/
 
 	numArray2 := []int{2, 7, 9, 3, 1}
 	ret2 := lesson1.Job198Method(numArray2)
