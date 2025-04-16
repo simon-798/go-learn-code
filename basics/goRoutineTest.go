@@ -1,4 +1,4 @@
-package main
+package basics
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func main() {
+func mainGoRoutineTest() {
 	goRoutineTestMethod3()
 }
 

@@ -1,4 +1,4 @@
-package main
+package lesson1
 
 import (
 	"fmt"
@@ -12,7 +12,7 @@ import (
 将当前区间与切片中最后一个区间进行比较，如果有重叠，则合并区间；如果没有重叠，则将当前区间添加到切片中。
 */
 
-func job56Method() {
+func Job56Method() {
 
 	testCase := [][][]int{
 		{{1, 3}, {2, 6}, {8, 10}, {15, 18}},

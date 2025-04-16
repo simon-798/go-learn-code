@@ -1,4 +1,4 @@
-package main
+package basics
 
 import "fmt"
 
@@ -15,7 +15,7 @@ func (a *functionA) add(v int) int {
 var function1 func(int) int
 
 // 声明闭包
-var squart2 func(int) int = func(p int) int {
+var squart2 = func(p int) int {
 	p *= p
 	return p
 }
@@ -29,7 +29,7 @@ func Counter() func() int {
 	}
 }
 
-func main() {
+func mainFunction() {
 
 	c := Counter()
 	fmt.Println(c()) // 1

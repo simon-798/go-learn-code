@@ -1,4 +1,4 @@
-package main
+package basics
 
 import (
 	"fmt"
@@ -9,7 +9,7 @@ import (
 *
 指针
 */
-func main() {
+func mainPoint() {
 	//pointMethod1()
 	//pointMethod2()
 	//pointMethod3()
@@ -80,7 +80,7 @@ func pointMethod3() {
 
 func pointMethod4() {
 
-	var a int = 100
+	var a = 100
 	var p *int
 	p = &a
 	// p = p + 1    在 Go 中，指针不能直接参与计算，否则会在编译的时候就包错
@@ -91,7 +91,7 @@ func pointMethod4() {
 
 func pointMethod5() {
 	var p *string
-	var a string = "test"
+	var a = "test"
 	p = &a
 
 	up1 := unsafe.Pointer(p)

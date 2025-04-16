@@ -1,8 +1,8 @@
-package main
+package basics
 
 import "fmt"
 
-func main() {
+func mainOperatorTest() {
 	/*	a, b := 1, 2
 		sum := a + b
 		sub := a - b
@@ -69,10 +69,10 @@ func main() {
 	fmt.Printf("ptr 为 %d\n", ptr)
 	fmt.Printf("*ptr 为 %d\n", *ptr)*/
 
-	var a int = 21
-	var b int = 10
-	var c int = 16
-	var d int = 5
+	var a = 21
+	var b = 10
+	var c = 16
+	var d = 5
 	var e int
 
 	e = (a + b) * c / d // ( 31 * 16 ) / 5

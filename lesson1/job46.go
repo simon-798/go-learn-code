@@ -1,4 +1,4 @@
-package main
+package lesson1
 
 import "fmt"
 
@@ -9,7 +9,7 @@ import "fmt"
 */
 
 // 没有完全理解回溯算法
-func job46Method() [][]int {
+func Job46Method() [][]int {
 	nums := []int{1, 2}
 
 	var result [][]int                    //存储所有排列的结果  二维切片

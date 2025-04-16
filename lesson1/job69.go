@@ -1,4 +1,4 @@
-package main
+package lesson1
 
 import "fmt"
 
@@ -9,7 +9,7 @@ import "fmt"
 直到找到满足条件的平方根或者确定不存在精确的平方根。
 */
 
-func job69Method() {
+func Job69Method() {
 
 	nums := []int{8, 9}
 	for _, x := range nums {

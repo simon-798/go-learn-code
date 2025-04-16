@@ -1,4 +1,4 @@
-package main
+package basics
 
 import "fmt"
 
@@ -114,7 +114,7 @@ type Custom struct {
 	cu int
 }
 
-var carr [5]*Custom = [5]*Custom{
+var carr = [5]*Custom{
 	{6},
 	{7},
 	{8},
@@ -122,7 +122,7 @@ var carr [5]*Custom = [5]*Custom{
 	{10},
 }
 
-func main() {
+func mainArray() {
 	a := [5]int{5, 4, 3, 2, 1}
 	fmt.Println("before all, a = ", a)
 	for i := range carr {

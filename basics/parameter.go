@@ -1,4 +1,4 @@
-package main
+package basics
 
 import (
 	"fmt"
@@ -69,8 +69,8 @@ func main() {
 	fmt.Println("global variable, a = ", a)
 }*/
 
-func main() {
-	var b int = 4
+func mainParameter() {
+	var b = 4
 	fmt.Println("local variable, b = ", b)
 	if b := 3; b == 3 {
 		fmt.Println("if statement, b = ", b)

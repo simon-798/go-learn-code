@@ -1,4 +1,4 @@
-package main
+package lesson1
 
 import "fmt"
 
@@ -8,7 +8,7 @@ import "fmt"
     不要给另外的数组分配额外的空间，你必须原地修改输入数组、使用 O(1) 的额外空间解决这一问题。可以使用 for 循环和两个指针，
     一个指向字符串的开头，一个指向字符串的结尾，然后交换两个指针所指向的字符，直到两个指针相遇。
 */
-func job344Method(strArray []string) {
+func Job344Method(strArray []string) {
 
 	if len(strArray) == 0 {
 		fmt.Println("数组为空")
@@ -34,7 +34,7 @@ func job344Method(strArray []string) {
 *
 写法2
 */
-func job344Method2() {
+func Job344Method2() {
 
 	strArray := []string{"a", "b", "c", "d", "e", "f"}
 

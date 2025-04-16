@@ -1,4 +1,4 @@
-package main
+package basics
 
 import "fmt"
 
@@ -31,7 +31,7 @@ type CustomType struct {
 	name string
 }
 
-func main() {
+func mainFlowController() {
 	a := "test string"
 
 	// 1. 基本用法

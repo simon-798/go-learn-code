@@ -1,4 +1,4 @@
-package main
+package basics
 
 import (
 	"fmt"
@@ -8,7 +8,7 @@ import (
 *
 循环控制
 */
-func main() {
+func mainLoopController() {
 
 	//forMethod()
 	continueMethod()

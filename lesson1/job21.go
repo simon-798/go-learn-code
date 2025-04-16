@@ -1,4 +1,4 @@
-package main
+package lesson1
 
 import "fmt"
 
@@ -8,7 +8,7 @@ import "fmt"
     可以定义一个函数，接收两个链表的头节点作为参数，在函数内部使用双指针法，通过比较两个链表节点的值，
     将较小值的节点添加到新链表中，直到其中一个链表为空，然后将另一个链表剩余的节点添加到新链表中。
 */
-func job21Method() {
+func Job21Method() {
 	// 测试用例
 	//struct { list1 []int; list2 []int } 定义了一个未命名结构体类型，包含两个字段：
 	//list1: 整型切片（[]int）

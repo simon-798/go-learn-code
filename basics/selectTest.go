@@ -1,11 +1,11 @@
-package main
+package basics
 
 import (
 	"fmt"
 	"time"
 )
 
-func main() {
+func mainSelectTest() {
 	ch1 := make(chan int, 10)
 	ch2 := make(chan int, 10)
 	ch3 := make(chan int, 10)

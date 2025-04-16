@@ -1,4 +1,4 @@
-package main
+package lesson1
 
 import (
 	"fmt"
@@ -13,7 +13,7 @@ import (
 然后使用递归的方法来扁平化链表，先处理当前节点的子链表，再将子链表插入到当前节点和下一个节点之间。
 */
 
-func job430Method() {
+func Job430Method() {
 
 	node := buildTestCaseNode()
 	//list1 := linkedListToSlice(node)

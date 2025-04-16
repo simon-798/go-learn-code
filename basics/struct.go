@@ -1,4 +1,4 @@
-package main
+package basics
 
 import "fmt"
 
@@ -88,7 +88,7 @@ var structName = struct {
 	string: "test",
 }
 
-func main() {
+func mainStruct() {
 	fmt.Println("structName:", structName)
 
 	c := NewC()

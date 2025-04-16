@@ -1,4 +1,4 @@
-package main
+package basics
 
 import "fmt"
 
@@ -41,7 +41,7 @@ func (g *Gender) isFemale() bool {
 	return *g == Female
 }
 
-func main() {
+func mainConstAndEnum() {
 	var gender = Male
 	fmt.Println(gender)
 	fmt.Println(gender.isMale())

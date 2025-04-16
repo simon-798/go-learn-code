@@ -1,11 +1,11 @@
-package main
+package basics
 
 import (
 	"fmt"
 	"reflect"
 )
 
-func main() {
+func mainRangeTest() {
 	rangeMethod2()
 }
 

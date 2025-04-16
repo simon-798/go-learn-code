@@ -1,4 +1,4 @@
-package main
+package basics
 
 import "fmt"
 
@@ -8,7 +8,7 @@ type Data struct{ ID int }
 *
 切片
 */
-func main() {
+func mainSliceTest() {
 	/*a := [5]int{6, 5, 4, 3, 2}
 	// 从数组下标2开始，直到数组的最后一个元素
 	s7 := a[2:]

@@ -1,11 +1,11 @@
-package main
+package basics
 
 import (
 	"fmt"
 	"strconv"
 )
 
-func main() {
+func mainTypeConvertMethod() {
 
 	typeConvertMethod5()
 }
@@ -23,13 +23,13 @@ func typeConvertMethod1() {
 
 	// 当int32类型强转成byte时，高位被直接舍弃
 	var i2 int32 = 256
-	var b2 byte = byte(i2)
+	var b2 = byte(i2)
 	fmt.Printf("b2 的值为: %d\n", b2)
 }
 func typeConvertMethod2() {
 	str := "hello, 123, 你好"
-	var bytes []byte = []byte(str)
-	var runes []rune = []rune(str)
+	var bytes = []byte(str)
+	var runes = []rune(str)
 	fmt.Printf("bytes 的值为: %v \n", bytes)
 	fmt.Printf("runes 的值为: %v \n", runes)
 

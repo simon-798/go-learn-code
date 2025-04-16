@@ -1,4 +1,4 @@
-package main
+package lesson1
 
 import "fmt"
 
@@ -10,7 +10,7 @@ import "fmt"
     可以使用双指针法，一个慢指针 i 用于记录不重复元素的位置，一个快指针 j 用于遍历数组，
     当 nums[i] 与 nums[j] 不相等时，将 nums[j] 赋值给 nums[i + 1]，并将 i 后移一位。
 */
-func job26Method() {
+func Job26Method() {
 
 	nums := [][]int{
 		{0, 0, 1, 1, 1, 2, 2, 3, 3, 4},

@@ -1,4 +1,4 @@
-package main
+package basics
 
 import (
 	"fmt"
@@ -71,7 +71,7 @@ func purchaseItem(p PayMethod, price int) {
 	}
 }
 
-func main() {
+func mainInterfaceTest() {
 	creditCard := &CreditCard{balance: 0, limit: 1000}
 	debitCard := &DebitCard{balance: 500}
 
